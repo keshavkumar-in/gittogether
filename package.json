@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-pipeline-project",
+  "version": "1.0.0",
+  "description": "A web application with CI/CD pipeline using GitHub Actions for deployment to Netlify or Vercel.",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "echo 'Building the application...'",
+    "test": "echo 'Running tests...'",
+    "deploy": "echo 'Deploying to the selected platform...'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
