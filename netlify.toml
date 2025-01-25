@@ -5,9 +5,6 @@
 [build.environment]
   NODE_ENV = "production"
 
-[dev]
-  command = "npm run dev"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
