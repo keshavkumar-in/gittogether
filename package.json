@@ -1,15 +1,33 @@
 {
-  "name": "ci-cd-pipeline-project",
+  "name": "gittogether",
   "version": "1.0.0",
-  "description": "A web application with CI/CD pipeline using GitHub Actions for deployment to Netlify or Vercel.",
-  "main": "src/app.js",
+  "description": "A web application to create custom forms with various input types dynamically.",
+  "main": "src/index.js",
   "scripts": {
-    "build": "echo 'Building the application...'",
-    "test": "echo 'Running tests...'",
-    "deploy": "echo 'Deploying to the selected platform...'"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
