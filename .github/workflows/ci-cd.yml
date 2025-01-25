@@ -40,8 +40,8 @@ jobs:
           npm install netlify-cli -g
           netlify deploy --prod --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
-      - name: Deploy to Vercel
-        if: github.event_name == 'push' && secrets.VERCEL_TOKEN != ''
-        run: |
-          npm install -g vercel
-          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
+      # - name: Deploy to Vercel
+      #   if: github.event_name == 'push' && secrets.VERCEL_TOKEN != ''
+      #   run: |
+      #     npm install -g vercel
+      #     vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
